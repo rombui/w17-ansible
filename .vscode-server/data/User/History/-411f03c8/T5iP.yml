@@ -1,0 +1,12 @@
+---
+- hosts: ws
+  become: true
+  ignore_errors: yes
+  gather_facts: yes
+  vars:
+    f_name: John
+  tasks:
+    - name: Debug module
+      debug:
+        msg: "Hello World"
+        var: f_name

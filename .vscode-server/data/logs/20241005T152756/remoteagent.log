@@ -1,0 +1,22 @@
+2024-10-05 15:27:58.995 [info] 
+
+
+
+
+2024-10-05 15:27:59.019 [info] Extension host agent started.
+2024-10-05 15:27:59.103 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-10-05 15:27:59.128 [info] [<unknown>][afaf198f][ExtensionHostConnection] New connection established.
+2024-10-05 15:27:59.134 [info] [<unknown>][42062d31][ManagementConnection] New connection established.
+2024-10-05 15:27:59.139 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-10-05 15:28:00.368 [info] [<unknown>][afaf198f][ExtensionHostConnection] <2746> Launched Extension Host Process.
+2024-10-05 15:32:59.021 [info] New EH opened, aborting shutdown
+2024-10-05 15:52:58.929 [info] [<unknown>][42062d31][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-05 15:52:58.961 [info] [<unknown>][afaf198f][ExtensionHostConnection] <2746> Extension Host Process exited with code: 0, signal: null.
+2024-10-05 15:52:58.964 [info] Last EH closed, waiting before shutting down
+2024-10-05 15:53:13.232 [info] [<unknown>][1e99105a][ExtensionHostConnection] New connection established.
+2024-10-05 15:53:13.236 [info] [<unknown>][1e99105a][ExtensionHostConnection] <3004> Launched Extension Host Process.
+2024-10-05 15:53:13.238 [info] [<unknown>][4efb2059][ManagementConnection] New connection established.
+2024-10-05 15:57:58.967 [info] New EH opened, aborting shutdown
+2024-10-05 15:57:58.969 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/server/node/server.main.js:189:5899)
+    at process.emit (node:events:531:35)

@@ -1,0 +1,6 @@
+name: Get 
+  ansible.builtin.get_url:
+    url: https://github.com/kserge2001/resume/archive/refs/heads/main.zip
+    dest: /tmp/
+    username: bar
+    password: '{{ mysecret }}'

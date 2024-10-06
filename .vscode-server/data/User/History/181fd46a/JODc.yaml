@@ -1,0 +1,29 @@
+---
+- host: all
+  become: True
+  #become_user: root
+
+  tasks:
+      - name: Create a file
+        file:
+          path: /tmp/playbookfile
+          mode:  '0755'
+          state: touch
+
+      - name: Create a directory
+        file:
+          path: /tmp/dir
+          mode: '0700'
+          state: directory
+
+      - name: create group
+        group:
+          name: security
+          state: present
+
+      - name: Create a user Rich
+        user:
+          comment: rich Admin
+          shell: /bin/bash
+          group: security
+          name: Rich 

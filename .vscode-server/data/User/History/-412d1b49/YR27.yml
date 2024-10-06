@@ -1,0 +1,16 @@
+---
+- hosts: ws
+  become: true
+  ignore_errors: yes
+  gather_facts: yes
+  tasks:
+    - name: Download from Github
+      get_url:
+        url: https://github.com/kserge2001/resume/archive/refs/heads/main.zip
+        dest: /tmp/main.zip
+    - name: delete files
+  tasks:
+    - name: delete files
+    file:
+      path: "{{ delete_files }}"
+      state: absent

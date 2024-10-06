@@ -1,0 +1,7 @@
+name: < Fetch file that requires authentication.
+        username/password only available since 2.8, in older versions you need to use url_username/url_password
+  ansible.builtin.get_url:
+    url: https://github.com/kserge2001/resume/archive/refs/heads/main.zip
+    dest: /etc/
+    username: bar
+    password: '{{ mysecret }}'

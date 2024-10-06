@@ -1,0 +1,16 @@
+---
+- hosts: ws
+  become: true
+  ignore_errors: yes
+  gather_facts: yes
+  vars-files:
+    -vars.yml
+  tasks:
+    - name: Download from Github
+      get_url:
+        url: 
+        dest: 
+    - name: delete files
+      file:
+        path: /tmp/main.zip
+        state: absent

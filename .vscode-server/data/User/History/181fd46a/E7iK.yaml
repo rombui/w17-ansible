@@ -1,0 +1,4 @@
+---
+- host: all
+  become: True
+  become_user: root

@@ -6,4 +6,4 @@
         .ssh/
         .viminfo
         .vscode-server/
-        ansible-key.pemgit commity
+        ansible-key.pem

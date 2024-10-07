@@ -36,3 +36,33 @@
 2024-10-06 20:08:01,983 p=3608 u=ec2-user n=ansible | PLAY RECAP **********************************************************************************************************************************************************
 2024-10-06 20:08:01,983 p=3608 u=ec2-user n=ansible | 172.31.20.243              : ok=5    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 2024-10-06 20:08:01,984 p=3608 u=ec2-user n=ansible | 172.31.29.95               : ok=5    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-10-07 22:27:18,239 p=8580 u=ec2-user n=ansible | PLAY [all] ***********************************************************************************
+2024-10-07 22:27:18,249 p=8580 u=ec2-user n=ansible | TASK [Gathering Facts] ***********************************************************************
+2024-10-07 22:27:19,609 p=8580 u=ec2-user n=ansible | ok: [172.31.29.95]
+2024-10-07 22:27:19,737 p=8580 u=ec2-user n=ansible | ok: [172.31.20.243]
+2024-10-07 22:27:19,748 p=8580 u=ec2-user n=ansible | TASK [Create a file] *************************************************************************
+2024-10-07 22:27:20,269 p=8580 u=ec2-user n=ansible | changed: [172.31.29.95]
+2024-10-07 22:27:20,342 p=8580 u=ec2-user n=ansible | changed: [172.31.20.243]
+2024-10-07 22:27:20,350 p=8580 u=ec2-user n=ansible | TASK [check something] ***********************************************************************
+2024-10-07 22:27:20,823 p=8580 u=ec2-user n=ansible | fatal: [172.31.29.95]: FAILED! => {"changed": false, "cmd": "kdvksdfdf", "msg": "[Errno 2] No such file or directory: b'kdvksdfdf': b'kdvksdfdf'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2024-10-07 22:27:20,823 p=8580 u=ec2-user n=ansible | ...ignoring
+2024-10-07 22:27:20,937 p=8580 u=ec2-user n=ansible | fatal: [172.31.20.243]: FAILED! => {"changed": false, "cmd": "kdvksdfdf", "msg": "[Errno 2] No such file or directory: b'kdvksdfdf': b'kdvksdfdf'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2024-10-07 22:27:20,937 p=8580 u=ec2-user n=ansible | ...ignoring
+2024-10-07 22:27:20,943 p=8580 u=ec2-user n=ansible | TASK [Create a directory] ********************************************************************
+2024-10-07 22:27:21,301 p=8580 u=ec2-user n=ansible | ok: [172.31.29.95]
+2024-10-07 22:27:21,341 p=8580 u=ec2-user n=ansible | ok: [172.31.20.243]
+2024-10-07 22:27:21,348 p=8580 u=ec2-user n=ansible | TASK [create group] **************************************************************************
+2024-10-07 22:27:21,949 p=8580 u=ec2-user n=ansible | ok: [172.31.29.95]
+2024-10-07 22:27:22,017 p=8580 u=ec2-user n=ansible | ok: [172.31.20.243]
+2024-10-07 22:27:22,026 p=8580 u=ec2-user n=ansible | TASK [Create a user Rich] ********************************************************************
+2024-10-07 22:27:22,052 p=8580 u=ec2-user n=ansible | skipping: [172.31.20.243]
+2024-10-07 22:27:22,735 p=8580 u=ec2-user n=ansible | ok: [172.31.29.95]
+2024-10-07 22:27:22,745 p=8580 u=ec2-user n=ansible | TASK [check uptime] **************************************************************************
+2024-10-07 22:27:23,137 p=8580 u=ec2-user n=ansible | changed: [172.31.29.95]
+2024-10-07 22:27:23,252 p=8580 u=ec2-user n=ansible | changed: [172.31.20.243]
+2024-10-07 22:27:23,259 p=8580 u=ec2-user n=ansible | TASK [check the date] ************************************************************************
+2024-10-07 22:27:23,612 p=8580 u=ec2-user n=ansible | changed: [172.31.29.95]
+2024-10-07 22:27:23,684 p=8580 u=ec2-user n=ansible | changed: [172.31.20.243]
+2024-10-07 22:27:23,697 p=8580 u=ec2-user n=ansible | PLAY RECAP ***********************************************************************************
+2024-10-07 22:27:23,697 p=8580 u=ec2-user n=ansible | 172.31.20.243              : ok=7    changed=3    unreachable=0    failed=0    skipped=1    rescued=0    ignored=1   
+2024-10-07 22:27:23,697 p=8580 u=ec2-user n=ansible | 172.31.29.95               : ok=8    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   

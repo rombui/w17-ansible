@@ -1,0 +1,7 @@
+---
+- name: Install Apache
+  yum:
+    name: "{{ apache_pkg }}"
+    state: "{{ pkg_state }}"
+
+- name: 

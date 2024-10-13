@@ -1,0 +1,8 @@
+---
+- hosts: ws
+  become: true
+  role: 
+    - apache
+    - java
+    - urld
+    

@@ -1,0 +1,12 @@
+---
+- hosts: wind
+  tasks:
+
+    - name: Create a directory
+      win_file:
+        path: C:\Users\Administrator\Desktop\ansible_windows_test
+        state: directory
+    - name: Download files
+      win_get_url:
+          url: https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.11.3.tar.xz
+          dest: C:\Users\Administrator\Desktop\ansible_windows_test

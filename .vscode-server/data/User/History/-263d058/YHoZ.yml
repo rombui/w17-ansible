@@ -1,0 +1,17 @@
+---
+- hosts: ws
+  become: true
+  tasks:
+    - name: Update all packages
+      package:
+        name: '*'
+        state: latest
+    - name: Install Apache
+      yum: 
+          name: httpd
+          state: latest
+    - name: Strt Daemon
+      Service: 
+          name: httpd
+          state: started
+          enable: yes 

@@ -1,0 +1,6 @@
+---
+- name: Restart Daemon
+  service:
+    name: httpd
+    state: restarted
+# handlers file for apache

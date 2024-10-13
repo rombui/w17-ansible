@@ -1,0 +1,12 @@
+.ansible/
+        .bash_history
+        .bash_logout
+        .bash_profile
+        .bashrc
+        .cache/
+        .local/
+        .ssh/
+        .vscode-server/
+        ansible-dev/
+        ansible-key.pem
+        

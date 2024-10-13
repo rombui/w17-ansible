@@ -1,0 +1,8 @@
+---
+- hosts: ws
+  become: true
+  tasks:
+    - name: Update all packages
+      package:
+        name: '*'
+         

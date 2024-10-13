@@ -1,0 +1,9 @@
+---
+- hosts: ws
+  become: true
+  roles: 
+    - apache
+    - java
+    - ntp
+
+    

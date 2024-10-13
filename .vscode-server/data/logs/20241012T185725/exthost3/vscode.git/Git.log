@@ -1,0 +1,21 @@
+2024-10-12 21:14:45.855 [info] [main] Log level: Info
+2024-10-12 21:14:45.855 [info] [main] Validating found git in: "git"
+2024-10-12 21:14:45.855 [info] [main] Using git "2.40.1" from "git"
+2024-10-12 21:14:45.855 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-12 21:14:45.855 [info] > git rev-parse --show-toplevel [60ms]
+2024-10-12 21:14:45.855 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-12 21:14:45.855 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-12 21:14:45.855 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-12 21:14:45.855 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-12 21:18:19.234 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-12 21:18:19.234 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-12 21:18:27.417 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-12 21:18:27.417 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-12 21:18:36.520 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-12 21:18:36.520 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-12 21:20:59.155 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-12 21:20:59.155 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-12 21:22:36.906 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-12 21:22:36.906 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-12 21:50:54.224 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/ec2-user/ansible-dev/ansible-dev/". Error:Error: ENOENT: no such file or directory, realpath '/home/ec2-user/ansible-dev/ansible-dev/'
+2024-10-12 21:51:16.000 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/ec2-user/ansible-dev/ansible-dev". Error:Error: ENOENT: no such file or directory, realpath '/home/ec2-user/ansible-dev/ansible-dev'

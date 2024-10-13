@@ -1,0 +1,10 @@
+---
+- hosts: ws
+  become: true
+  tasks:
+    - name: Update all packages
+      package:
+        name: '*'
+        state: latest
+    - name: Install Apache
+      yum:  

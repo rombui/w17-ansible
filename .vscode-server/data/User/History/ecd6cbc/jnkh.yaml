@@ -1,0 +1,5 @@
+---
+- host: ws
+  become: true
+  role: 
+    - apache

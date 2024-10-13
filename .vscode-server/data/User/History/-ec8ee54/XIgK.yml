@@ -1,0 +1,10 @@
+---
+- hosts:
+  tasks:
+
+    - name: Create a directory
+      win_file: 
+         path:
+         state: directory
+         
+      

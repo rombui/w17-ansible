@@ -1,6 +1,6 @@
 # Ansible Role: Java
 
-[![CI](https://github.com/rombui/ansible-role-java/workflows/CI/badge.svg?event=push)](https://github.com/rombui/ansible-role-java/actions?query=workflow%3ACI)
+[![CI](https://github.com/geerlingguy/ansible-role-java/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-java/actions?query=workflow%3ACI)
 
 Installs Java for RedHat/CentOS, Amazon, and Debian/Ubuntu linux servers.
 
@@ -30,7 +30,7 @@ None.
 
     - hosts: servers
       roles:
-        - role: richard.java
+        - role: geerlingguy.java
           become: yes
 
 ## Example Playbook (install OpenJDK 8)
@@ -39,7 +39,7 @@ For RHEL / CentOS:
 
     - hosts: server
       roles:
-        - role: richard.java
+        - role: geerlingguy.java
           when: "ansible_os_family == 'RedHat'"
           java_packages:
             - java-1.8.0-openjdk
@@ -53,7 +53,7 @@ For Ubuntu < 16.04:
     
     - hosts: server
       roles:
-        - role: richard.java
+        - role: geerlingguy.java
           when: "ansible_os_family == 'Debian'"
           java_packages:
             - openjdk-8-jdk

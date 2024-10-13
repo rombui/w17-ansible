@@ -84,6 +84,6 @@ None.
 
 MIT / BSD
 
-## Author Information
+
 
 

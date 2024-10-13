@@ -84,3 +84,11 @@
 2024-10-13 22:56:42.259 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1833
 2024-10-13 22:56:50.277 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1833
 2024-10-13 22:56:55.358 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1833
+2024-10-13 22:57:00.774 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1833
+2024-10-13 22:57:06.144 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1833
+2024-10-13 22:57:11.196 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1833
+2024-10-13 22:57:16.955 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1833
+2024-10-13 22:57:22.013 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1833
+2024-10-13 22:57:22.830 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1833
+2024-10-13 23:06:48.996 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-10-13 23:06:49.614 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features

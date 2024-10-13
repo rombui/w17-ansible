@@ -6,11 +6,11 @@ name: CI
     branches:
       - master
   schedule:
-    - cron: "30 7 * * 3"
+    - cron: "0 7 * * 2"
 
 defaults:
   run:
-    working-directory: 'ricghard.ntp'
+    working-directory: 'richard.java'
 
 jobs:
 
@@ -21,7 +21,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v4
         with:
-          path: 'richard.ntp'
+          path: 'geerlingguy.java'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v5
@@ -43,16 +43,18 @@ jobs:
         distro:
           - rockylinux9
           - rockylinux8
+          - ubuntu2404
           - ubuntu2204
           - ubuntu2004
           - debian12
           - debian11
+          - amazonlinux2023
 
     steps:
       - name: Check out the codebase.
         uses: actions/checkout@v4
         with:
-          path: 'richard.ntp'
+          path: 'geerlingguy.java'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v5
